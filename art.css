@@ -129,6 +129,22 @@ p {
   transform: rotateY(180deg);
 }
 
+#testPage {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
+  z-index: 1;
+  visibility: hidden;
+}
+
+#testPageInfo {
+  padding-top: 20vh;
+  font-size: 4vw;
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .artPics {
     background-color: rgba(255, 255, 255, 0.8);
@@ -164,5 +180,17 @@ p {
     width: 15vw;
     margin-left: 0px;
     border-radius: 90px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  #testPage {
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 300vh;
+    background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
+    z-index: 1;
+    visibility: visible;
   }
 }
