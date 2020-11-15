@@ -1,0 +1,168 @@
+body {
+  background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
+}
+
+#home {
+  width: 5vw;
+  margin-left: 0px;
+  border-radius: 90px;
+}
+
+#artTitle {
+  margin-bottom: 10vh;
+  width: 50vw;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.artPics {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+  width: 23vw;
+  height: 38vh;
+}
+
+#montage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.alice-card,
+.paw-card,
+.cheetah-card,
+.board-card {
+  background-color: transparent;
+  width: 23vw;
+  height: 38vh;
+}
+
+p {
+  font-size: 1.4vw;
+  margin: 10px;
+}
+
+.alice-card-inner,
+.paw-card-inner,
+.cheetah-card-inner,
+.board-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.alice-card:hover .alice-card-inner {
+  transform: rotateY(180deg);
+}
+
+.paw-card:hover .paw-card-inner {
+  transform: rotateY(180deg);
+}
+
+.cheetah-card:hover .cheetah-card-inner {
+  transform: rotateY(180deg);
+}
+
+.board-card:hover .board-card-inner {
+  transform: rotateY(180deg);
+}
+
+.alice-card-front,
+.alice-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.paw-card-front,
+.paw-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.board-card-front,
+.board-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cheetah-card-front,
+.cheetah-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.alice-card-front,
+.cheetah-card-front,
+.paw-card-front,
+.board-card-front {
+  color: black;
+}
+
+.alice-card-back,
+.paw-card-back,
+.board-card-back,
+.cheetah-card-back {
+  background-color: lightyellow;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 768px) {
+  .artPics {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    width: 60vw;
+    height: 40vh;
+  }
+
+  #montage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20%;
+  }
+
+  .alice-card,
+  .paw-card,
+  .cheetah-card,
+  .board-card {
+    background-color: transparent;
+    width: 60vw;
+    height: 40vh;
+  }
+
+  p {
+    font-size: 3vw;
+    margin: 10px;
+  }
+
+  #home {
+    width: 15vw;
+    margin-left: 0px;
+    border-radius: 90px;
+  }
+}

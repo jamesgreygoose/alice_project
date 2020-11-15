@@ -1,0 +1,18 @@
+body {
+  background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
+}
+
+#home {
+  width: 5vw;
+  margin-left: 0px;
+  border-radius: 90px;
+}
+
+#artTitle {
+  margin-bottom: 10vh;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Facts</title>
+    <link href="facts.css" rel="stylesheet">
+</head>
+<body>
+    <a href="./contents.html"><img id="home" src="./home.png"></a>
+    <img id="facts" src="./Facts.png">
+    <img src="./Media/Alice fact finding.jpg" id="aliceReadingFacts" alt="Alice reading about cheetahs">
+    <h1 id="factIntro">Alice found out lots of facts about Cheetahs from the books that she got at the library and by watching a documentary on TV.
+    See if you can click on the cheetah below to get a fact that she found out.
+    </h1>
+    <p id="factBox"></p>
+    <marquee direction="right" scrollAmount="10" >
+        <img onclick="newFact()" src="cheetah.gif" alt="running cheetah" id="cheetahGif">
+    </marquee>
+<script src="facts.js"></script>
+</body>
+</html>

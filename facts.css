@@ -1,0 +1,64 @@
+body {
+  background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
+}
+
+#home {
+  width: 5vw;
+  margin-left: 0px;
+  border-radius: 90px;
+}
+
+#artTitle {
+  margin-bottom: 10vh;
+}
+
+#factIntro {
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#cheetahGif {
+  width: 15vw;
+  transform: scaleX(-1);
+}
+
+#factBox {
+  display: block;
+  margin: 0 auto;
+  border: black solid 10px;
+  border-radius: 20px;
+  background: rgb(255, 255, 33);
+  font-size: 3.5vw;
+  text-align: center;
+  width: 60vw;
+  height: 20vh;
+  padding-top: 7vh;
+}
+
+#aliceReadingFacts {
+  width: 40vw;
+  border: yellow solid 2px;
+  border-radius: 20px;
+  margin: 2vw auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #factBox {
+    font-size: 5vw;
+  }
+
+  #cheetahGif {
+    width: 25vw;
+    transform: scaleX(-1);
+  }
+
+  #factIntro {
+    text-align: center;
+    font-size: 4vw;
+  }
+}
