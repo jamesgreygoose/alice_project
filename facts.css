@@ -8,8 +8,9 @@ body {
   border-radius: 90px;
 }
 
-#artTitle {
+#factsTitle {
   margin-bottom: 10vh;
+  width: 50vw;
 }
 
 #factIntro {
@@ -50,6 +51,8 @@ img {
 @media only screen and (max-width: 768px) {
   #factBox {
     font-size: 5vw;
+    height: 15vh;
+    padding-top: 2vh;
   }
 
   #cheetahGif {
