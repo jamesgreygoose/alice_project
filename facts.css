@@ -64,7 +64,7 @@ img {
   text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   #factBox {
     font-size: 5vw;
     height: 15vh;
@@ -86,9 +86,9 @@ img {
     margin-left: 0px;
     border-radius: 90px;
   }
-}
+} */
 
-@media only screen and (max-width: 1024px) and (orientation: landscape) {
+/* @media only screen and (max-width: 1000px) and (orientation: landscape) {
   #testPage {
     position: fixed;
     top: 0px;
@@ -97,5 +97,4 @@ img {
     background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
     z-index: 1;
     visibility: visible;
-  }
-}
+  } */

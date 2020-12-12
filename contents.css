@@ -209,15 +209,15 @@ img {
     margin-top: 2vh;
   }
 }
-
+/* 
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   #testPage {
     position: absolute;
     top: 0px;
-    width: 100vw;
+    width: 94vw;
     height: 200vh;
     background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
     z-index: 1;
     visibility: visible;
   }
-}
+} */

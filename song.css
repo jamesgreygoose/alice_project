@@ -16,3 +16,17 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+audio {
+  display: block;
+  margin: 0 auto;
+  border: solid 2px goldenrod;
+  border-radius: 3vh;
+}
+
+#cheetahSong {
+  margin-top: 5vh;
+  border: solid 2px goldenrod;
+  border-radius: 3vh;
+  width: 50vw;
+}
