@@ -260,4 +260,31 @@ img {
   .contentItem{
     font-size: 5vw;
   }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+
+    h1 {
+      font-size: 5vw;
+      margin: 6vh 0;
+    }
+
+    .contentItem{
+      font-size: 4vw;
+    }
+
+    .content {
+      background: yellow;
+      width: 80vw;
+      height: 8vh;
+      padding: 1vw;
+      border-radius: 20px;
+      margin: 5vh auto;
+      text-align: center;
+    }
 }​

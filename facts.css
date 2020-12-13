@@ -113,3 +113,24 @@ img {
     padding: 6vw;
   }
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  #factsTitle {
+    width: 40vw;
+  }
+
+  #home {
+    width: 10vw;
+    margin-left: 0px;
+    border-radius: 90px;
+  }
+
+  #factIntro {
+    font-size: 5vh;
+  }
+
+  #cheetahGif {
+    width: 30vw;
+    transform: scaleX(-1);
+  }
+}

@@ -183,23 +183,35 @@ p {
   }
 }
 
-/* @media only screen and (max-width: 1024px) and (orientation: landscape) {
-  #testPage {
-    position: absolute;
-    top: 0px;
-    margin-left: 0px;
-    width: 94vw;
-    height: 300vh;
-    background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
-    z-index: 1;
-    visibility: visible;
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .artPics {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    width: 50vw;
+    height: 60vh;
   }
 
-  #home,
-  #homeButton {
-    width: 0px;
-    left: 0px;
-    border-radius: 0px;
-    visibility: visible;
+  #montage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 24%;
   }
-} */
+
+  .alice-card,
+  .paw-card,
+  .cheetah-card,
+  .board-card {
+    background-color: transparent;
+    width: 50vw;
+    height: 60vh;
+  }
+
+  #home {
+    width: 10vw;
+    margin-left: 0px;
+    border-radius: 90px;
+  }
+}
