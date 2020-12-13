@@ -8,10 +8,6 @@ body {
   border-radius: 90px;
 }
 
-#artTitle {
-  margin-bottom: 10vh;
-}
-
 img {
   display: block;
   margin: 0 auto;
@@ -22,6 +18,7 @@ audio {
   margin: 0 auto;
   border: solid 2px goldenrod;
   border-radius: 3vh;
+  width: 50vw;
 }
 
 #cheetahSong {
@@ -29,4 +26,35 @@ audio {
   border: solid 2px goldenrod;
   border-radius: 3vh;
   width: 50vw;
+}
+
+#songTitle {
+  width: 50vw;
+}
+
+@media only screen and (max-width: 768px) {
+  #songTitle {
+    width: 80vw;
+  }
+
+  #home {
+    width: 10vw;
+    margin-left: 0px;
+    border-radius: 90px;
+  }
+
+  #cheetahSong {
+    margin-top: 5vh;
+    border: solid 2px goldenrod;
+    border-radius: 3vh;
+    width: 80vw;
+  }
+
+  audio {
+    display: block;
+    margin: 0 auto;
+    border: solid 2px goldenrod;
+    border-radius: 3vh;
+    width: 80vw;
+  }
 }

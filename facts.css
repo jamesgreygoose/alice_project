@@ -9,13 +9,15 @@ body {
 }
 
 #factsTitle {
-  margin-bottom: 10vh;
   width: 50vw;
 }
 
 #factIntro {
   text-align: center;
   font-size: 2.5vw;
+  display: block;
+  margin: 6vh auto 4vh auto;
+  width: 80vw;
 }
 
 img {
@@ -31,14 +33,14 @@ img {
 #factBox {
   display: block;
   margin: 0 auto;
-  border: black solid 10px;
+  border: black solid 1vw;
   border-radius: 20px;
   background: rgb(255, 255, 33);
   font-size: 3.5vw;
   text-align: center;
   width: 60vw;
   height: 20vh;
-  padding-top: 7vh;
+  padding: 6vw;
 }
 
 #aliceReadingFacts {
@@ -64,37 +66,50 @@ img {
   text-align: center;
 }
 
-/* @media only screen and (max-width: 768px) {
-  #factBox {
-    font-size: 5vw;
-    height: 15vh;
-    padding-top: 2vh;
-  }
-
-  #cheetahGif {
-    width: 25vw;
-    transform: scaleX(-1);
+@media only screen and (max-width: 768px) {
+  #factsTitle {
+    width: 80vw;
   }
 
   #factIntro {
-    text-align: center;
+    font-size: 2.5vh;
+  }
+
+  #factBox {
+    height: 7vh;
     font-size: 4vw;
   }
 
+  #cheetahGif {
+    width: 30vw;
+    transform: scaleX(-1);
+  }
+
   #home {
-    width: 15vw;
+    width: 10vw;
     margin-left: 0px;
     border-radius: 90px;
   }
-} */
 
-/* @media only screen and (max-width: 1000px) and (orientation: landscape) {
-  #testPage {
-    position: fixed;
-    top: 0px;
-    width: 100vw;
-    height: 300vh;
-    background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
-    z-index: 1;
-    visibility: visible;
-  } */
+  #aliceReadingFacts {
+    width: 80vw;
+    border: yellow solid 2px;
+    border-radius: 20px;
+    margin: 2vw auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #factBox {
+    display: block;
+    margin: 0 auto;
+    border: black solid 1vw;
+    border-radius: 20px;
+    background: rgb(255, 255, 33);
+    font-size: 3.5vw;
+    text-align: center;
+    width: 60vw;
+    height: 5vh;
+    padding: 6vw;
+  }
+}
