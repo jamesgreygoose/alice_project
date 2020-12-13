@@ -214,4 +214,8 @@ p {
     margin-left: 0px;
     border-radius: 90px;
   }
+
+  .artPicInfo {
+    font-size: 3vw;
+  }
 }
