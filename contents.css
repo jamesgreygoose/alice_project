@@ -8,15 +8,9 @@ body {
   width: 70vw;
 }
 
-/* #testPage {
-  position: absolute;
-  top: 0px;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("https://www.bricoflor.co.uk/media/catalog/product/cache/7/image/1250x1250/9df78eab33525d08d6e5fb8d27136e95/3/6/365031_9.jpg");
-  z-index: 1;
-  visibility: hidden;
-} */
+.contentItem{
+font-size:6vw;
+}
 
 #testPageInfo {
   padding-top: 20vh;
@@ -287,4 +281,3 @@ img {
       margin: 5vh auto;
       text-align: center;
     }
-}​
